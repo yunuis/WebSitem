@@ -36,10 +36,15 @@ a{
     padding: 2rem;
     border-bottom: 1px solid grey;
 }
-#hakkımda img{
+#hakkımda .img{
     max-width: 100%;
     height: auto;
     border-radius: 100%;
+}
+#hakkımda .img2{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5%;
 }
 #hakkımda .name h2{
     margin-bottom: 0.75rem;
