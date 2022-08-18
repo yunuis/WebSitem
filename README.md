@@ -1,1 +1,2 @@
 # WebSitem
+Üst tarafında navbar kısmı olan ve bu navbardaki sekmelere tıklanarak sitenin gerekli yerine yönlendirilebilecek bir web sayfası tasarlandı.Css komutları ayrı bir dosyada tutulacak ve bu dosyanın içinde global.css ve main.css adlı iki alt dosya olacak.Main.css ile index.html'deki kodlar sınıflandırılıp şekillendirilecek, global.css dosyasında ise önceden belirlenen genel stiller bulunacak ve istenen herhangi bir yerde kullanılabilecek.
