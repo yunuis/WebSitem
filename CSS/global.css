@@ -1,0 +1,31 @@
+/*Her tarafta kullanacağım classlar burada olacak */
+
+/*TEXTS*/
+.text-center{
+    text-align: center;
+}
+.heading-small{
+    font-size: 1.25rem;
+}
+.heading-medium{
+    font-size: 1.5rem;
+}
+.heading-big{
+    font-size: 1.75rem;
+}
+/*COLORS */
+.cream-light{
+    background-color:#dcc6a0;
+}
+.cream-mid{
+    background-color: #ddb687;
+}
+.cream-bold{
+    background-color: #b57135;
+}
+.blue-light{
+    background-color: #94f6ff;
+}
+.blue-bold{
+    background-color: #0c313e;
+}
