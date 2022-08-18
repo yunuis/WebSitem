@@ -29,3 +29,8 @@
 .blue-bold{
     background-color: #0c313e;
 }
+/* CONTAINER */
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}

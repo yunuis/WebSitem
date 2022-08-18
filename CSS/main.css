@@ -27,3 +27,24 @@ a{
     background-color:#b57135;
     border-radius: 7px;
 }
+/* HOME SECTION */
+#hakkımda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid grey;
+}
+#hakkımda img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+#hakkımda .name h2{
+    margin-bottom: 0.75rem;
+}
+#hakkımda .name p{
+    opacity: 0.7;
+    font-style: italic;
+}
