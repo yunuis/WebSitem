@@ -33,14 +33,14 @@
     </div>
    </header>
    <section id="hakkimda">
-    <img src="images/me.jpg" alt="Yunus İşler" height="300px" width="300px" class="img">
+    <img src="images/me.jpg" alt="Yunus İşler" height="300px" width="300px" class="img"title="yea, thats me!">
     <div class="name text-center">
         <h2 class="heading-big">Yunus İşler</h2>
         <p class="heading-small">| Computer Engineering Student |</p> <br>
         <p style="color: black;">Merhaba,ben Yunus İşler.Bilgisayar Mühendisliği öğrencisiyim.Sakarya Üniversitesi'nde eğitim görmekteyim.
         </p> <br>
         <p>Okulumu görmek isterseniz : <br><br>
-        <img src="images/sau.jpg"alt="SAU" height="200"width="500"class="img2"></a></p> <br>
+        <img src="images/sau.jpg"alt="SAU" height="200"width="500"class="img2"title="Sakarya Üniversitesi"></a></p> <br>
         <p>SAÜ hakkında detaylı bilgi için tıklayınız : 
         <a href="https://tr.wikipedia.org/wiki/Sakarya_%C3%9Cniversitesi" target="_blank" style="color:blue;">Sakarya Üniversitesi</a></p>
     </div>      
@@ -236,7 +236,70 @@
                  Müze-antik kent gibi tarihi anımsatan yerleri gezmeyi severim.<br>
                 <img src="images/antikkent.jpg" alt="AntikKent.JPG" class="img6" title="Troya Antik Kenti">
             </p>
-
+        </section>
+        <!-- LOGIN KISMI-->
+        <section id="login" class="cream-bold">
+            <div class="login-form">
+                <form >
+                    <h4 class="text-center heading-medium">Login</h4>
+                    <div class="form-group">
+                        <label for="email">Kullanıcı</label>
+                        <input type="email"class="form-control" name="email"id="name"placeholder="kullanıcı..."required>                
+                    </div>
+                    <div class="form-group">
+                        <label for="sifre">Şifre</label>
+                        <input type="password"class="form-control" name="sifre"id="sifre"placeholder="şifreniz..." required>                
+                    </div>
+                    <button type="submit"class="btn btn-block">Gönder</button>
+                </form>          
+        </section>
+        <!-- İLETİŞİM KISMI-->
+        <section id="iletisim" class="cream-light" style="color: #fff;padding: 1rem;">
+            <div class="login-form">
+                <form >
+                    <h4 class="text-center heading-medium">İletişim</h4>
+                    <div class="form-group">
+                        <label for="ad">İsim</label>
+                        <input type="text"class="form-control" name="ad"id="ad"placeholder="adınız..">                
+                    </div>
+                    <div class="form-group">
+                        <label for="soyad">Soyad</label>
+                        <input type="text"class="form-control" name="soyad"id="soyad"placeholder="soyadınız..">                
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email"class="form-control" name="email"id="email"placeholder="kullanıcı@...">                
+                    </div>
+                    <div class="form-group">
+                        <label for="radio">Messi mi Ronaldo mu ?</label>
+                        <input type="radio" name="radio"value="Messi">Messi <p>   </p>    
+                        <input type="radio" name="radio"value="Ronaldo">Ronaldo                 
+                    </div> <br>
+                    <div class="form-group">
+                        <label for="checkbox">Hangi ünlüleri tanıyorsunuz ?</label>
+                        <input type="checkbox" name="elon"value="elon">Elon Musk     
+                        <input type="checkbox" name="hoca"value="hoca">Abdullah Sevin
+                        <input type="checkbox" name="hawking"value="hawking">Stephen Hawking                       
+                        <input type="checkbox" name="hadise"value="hadise">Hadise                  
+                    </div> <br>
+                    <div class="form-group">
+                        <label for="select">Hangi mevsimi daha çok seversiniz ?</label>
+                        <select name="select">
+                        <option value="Sonbahar">Sonbahar</option>  
+                        <option value="Kış">Kış</option> 
+                        <option value="İlkbahar">İlkbahar</option>
+                        <option value="Yaz">Yaz</option>
+                        </select>
+                    </div> <br>
+                    <div class="form-group">
+                        <label for="mesaj">Dünyaya mesajınız nedir ?</label>
+                        <textarea name="mesaj"id="mesaj"class="form-control"rows="5"placeholder="Mesajınız..."></textarea>             
+                    </div> 
+                    <div class="form-group">
+                        <input type="reset"class="btn btn-block"value="Formu sıfırlamak için tıklayınız.">
+                    </div>
+                    <button type="submit"class="btn btn-block">Gönder</button>
+                </form>          
         </section>
 </body>
 </html>
