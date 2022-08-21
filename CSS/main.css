@@ -197,4 +197,22 @@ max-height: 400px;}
     max-width: 100%;
     height: auto;
 }
+#ilgi-alanlarim{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid grey;
+ }
+ #ilgi-alanlarim p{
+    text-align: center;
+    padding: 1.2rem;
+    letter-spacing: 0.8px;
+ }
+ #ilgi-alanlarim .img6{
+    max-width: 100%;
+    height: auto;
+    padding: 1.5rem;
+ }
 
