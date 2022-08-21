@@ -180,4 +180,21 @@ max-height: 400px;}
     padding: 1.2rem;
     letter-spacing: 0.8px;
  }
+ #mirasimiz{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid grey;
+ }
+ #mirasimiz p{
+    text-align: center;
+    padding: 1.2rem;
+    letter-spacing: 0.8px;
+}
+#mirasimiz .img5{   
+    max-width: 100%;
+    height: auto;
+}
 
